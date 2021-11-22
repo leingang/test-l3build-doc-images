@@ -6,14 +6,14 @@ generates a tex file.  `l3build doc` typesets that generated tex file.  But I
 can't figure out how to configure `build.lua` to enable that process to see any
 images that should be included.
 
-## reproducing the issue
+## Reproducing the issue
 
 Command:
 
     l3build doc foo
 
-* `duck.png` is copied into `docdir`
-* `foo.dtx` is typeset in `docdir` (I think?)
+* `duck.png` is copied into `typesetdir`
+* `foo.dtx` is typeset in `typesetdir` (I think?)
 * result: success
 
 Command:
