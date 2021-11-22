@@ -1,0 +1,2 @@
+supportdir = maindir
+typesetsuppfiles = "*.png"
