@@ -1,5 +1,4 @@
 module = "foo"
 
-supportdir = maindir
-typesetsuppfiles = {"*.png"}
-typesetfiles = {"*.tex"}
+typesetsuppfiles = {"duck.png"}
+typesetfiles = {"foo.dtx","bar.tex"}
